@@ -1,0 +1,47 @@
+# Fichiers système
+.DS_Store
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE et outils
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Données et modèles (trop volumineux)
+donnees/
+modeles/
+data/
+*.parquet
+*.pkl
+*.joblib
+*.pth
+*.h5
+*.pt
+
+# Logs
+*.log
+logs/
+
+# Cachés
+.cache/
+*.cache
+
+# OS
+Thumbs.db
+.DS_Store
